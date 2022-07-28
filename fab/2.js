@@ -9,4 +9,4 @@ function fab(n) {
     return res[n - 1]
 }
 
-console.log(fab(45))
+console.log(fab(1))
