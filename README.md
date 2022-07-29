@@ -20,3 +20,4 @@
 ## 【算法】阶乘
 1. factorial/1.js 数学思维
 2. factorial/compute.js 计算调用栈的大小
+3. factorial/2.js 普通思维
