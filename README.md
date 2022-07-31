@@ -26,3 +26,4 @@
 ## 【算法】归并排序
 1. merge/1.js 普通思维实现merge
 2. merge/2.js 数学思维实现merge
+3. merge/3.js in-place就地merge
