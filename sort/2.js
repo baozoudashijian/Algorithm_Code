@@ -18,12 +18,19 @@ const merge = (a, start, middle, end) => {
     return a
 }
 
-const sort = (arr) =>
+const sort = arr => 
     inplace_sort(arr, 0, arr.length)
 
 const inplace_sort = (arr, start, end) => {
+    if(end - start <= 1) { return }
     let middle = parseInt((start + end) / 2)
+    console.log(1)
     inplace_sort(arr, start, middle)
+    console.log(2)
     inplace_sort(arr, middle, end)
     merge(arr, start, middle, end)
+    return arr
 }
+
+console.log(sort([1, 2, 9, 4]))
+console.log(sort([1, 199, 27, 93, 124, 4903, 4]))
